@@ -22,9 +22,19 @@ const Links = styled.div`
   display: flex;
 `;
 
-const List = styled.p`
-  margin-left: 35px;
+const List = styled.button`
   margin-right: 15px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-family: "Courier New", monospace;
+  background-color: #0f3164;
+  color: white;
+
+  &:hover {
+    background-color: rgba(22, 62, 121, 0.83);
+    border-radius: 8px;
+  }
 `;
 
 const NavBar = () => {

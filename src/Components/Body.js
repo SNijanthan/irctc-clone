@@ -6,7 +6,7 @@ const Container = styled.div`
 `;
 
 const H4 = styled.h3`
-  color: #0f3164;
+  color: rgb(15, 49, 100);
   text-align: center;
 `;
 
@@ -39,6 +39,11 @@ const Search = styled.button`
   font-family: "Courier New", monospace;
   margin-top: 20px;
   cursor: pointer;
+  border: none;
+
+  &:hover {
+    background-color: rgb(15, 49, 80);
+  }
 `;
 
 const Body = () => {
